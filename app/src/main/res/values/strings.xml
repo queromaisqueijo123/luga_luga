@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">lugaLuga</string>
+    <string name="hint_email">e-mail</string>
+    <string name="hint_password">password</string>
+    <string name="esqueci_senha">Esqueci Minha Senha</string>
+    <string name="fazer_cadastro">Fazer Cadastro</string>
+    <string name="botao">Login</string>
+
 </resources>
