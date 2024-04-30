@@ -5,10 +5,10 @@ public class Produto {
     private String nome;
     private Double preco;
     private String descricao;
-    private Double quantidade;
+    private Integer quantidade;
     private String status;
 
-    public Produto(String nome, Double preco, String descricao, Double quantidade, String status) {
+    public Produto(String nome, Double preco, String descricao, Integer quantidade, String status) {
         this.nome = nome;
         this.preco = preco;
         this.descricao = descricao;
@@ -40,11 +40,11 @@ public class Produto {
         this.descricao = descricao;
     }
 
-    public Double getQuantidade() {
+    public Integer getQuantidade() {
         return quantidade;
     }
 
-    public void setQuantidade(Double quantidade) {
+    public void setQuantidade(Integer quantidade) {
         this.quantidade = quantidade;
     }
 
